@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MoonSpace</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js" defer></script>
+<script src="activities.js"></script>
+<script src="discord.js"></script>
+
+<audio id="bgm" loop>
+    <source src="assets/music/bgm-himeko.mp3" type="audio/mpeg">
+</audio>
+
+<body>
+
+<header>
+
+    <img src="assets/banner.png" class="banner">
+        <button id="enterBtn">
+        🌙 Enter MoonSpace
+    </button>
+
+    <h1 id="cozyCorner">Zia's Cozy Corner</h1>
+
+    <nav>
+
+        <a href="#playing">Currently Playing</a>
+
+        <a href="#bookshelf">Bookshelf</a>
+
+        <a href="#webtoon">Webtoon Hub</a>
+
+    </nav>
+
+</header>
+
+
+<section id="playing">
+
+<h2>Currently Playing</h2>
+
+<div class="monitor-container">
+
+<img
+src="assets/monitor.png"
+id="monitor">
+
+<img
+src="assets/status/default.png"
+id="currentGame">
+
+<img
+src="assets/bird2.png"
+id="bird">
+
+<img src="assets/cat.gif" id="cat">
+
+<div id="speechBubble"></div>
+
+<div id="leftDecor">
+
+    <img src="assets/phainon_mood/phainon1.png" class="leftImage active">
+
+    <img src="assets/phainon_mood/phainon2.png" class="leftImage">
+
+</div>
+
+</div>
+
+<div class="discord-info">
+
+
+</div>
+
+</section>
+
+
+<section id="bookshelf">
+
+    <h2>Bookshelf</h2>
+
+    <div class="bookshelf-container">
+
+        <img src="assets/bookshelf.png" id="bookshelfImg">
+
+       <div class="reading-card">
+
+    <p class="readingStatus">Currently Reading</p>
+
+    <h3 class="bookTitle">Rejection[Tony Tulathimutte]</h3>
+
+        <div class="progress">
+            <div class="progressFill"></div>
+        </div>
+
+    </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section id="webtoon">
+
+    <h2>Webtoon Hub</h2>
+
+  <div class="webtoon-grid">
+
+    <div class="webtoon-card">
+        <img src="assets/frame2.png" class="frame">
+        <img src="assets/webtoons/webtoon1.jpeg" class="cover">
+    </div>
+
+    <div class="webtoon-card">
+        <img src="assets/frame2.png" class="frame">
+        <img src="assets/webtoons/webtoon2.jpg" class="cover">
+    </div>
+
+    <div class="webtoon-card">
+        <img src="assets/frame2.png" class="frame">
+        <img src="assets/webtoons/webtoon3.png" class="cover">
+    </div>
+
+    <div class="webtoon-card">
+        <img src="assets/frame2.png" class="frame">
+        <img src="assets/webtoons/webtoon4.jpeg" class="cover">
+    </div>
+    <!-- Current reading covers -->
+
+</div>
+
+
+</section>
+
+</body>
+</html>
