@@ -11,7 +11,7 @@ const ACTIVITIES = {
         image: "NTE.jpg"
     },
 
-    "Arknights: Endfield": {
+    "ARKNIGHTS: ENDFIELD": {
         image: "endfield.jpg"
     },
 
