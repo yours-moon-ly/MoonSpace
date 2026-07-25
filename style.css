@@ -594,7 +594,7 @@ BOOKSHELF
     /* Baby Phainon */
 
     #leftDecor{
-        left:60px;
+        left:200px  !important;
         width:100px;
     }
 
