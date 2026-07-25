@@ -7,17 +7,17 @@
     src: url("fonts/PixelPurl.ttf") format("truetype");
 }
 
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 body{
-
-margin: 0;
-padding: 0;
 
 background-color: #ac38e199;
 
 font-family:"GomePixel";
-
-
 
 }
 
