@@ -536,13 +536,6 @@ BOOKSHELF
     height:2000px;
 }
 
-.frame{
-    position:absolute;
-    width:100%;
-    display:block;
-    z-index:2;
-    
-}
 
 .cover{
     position:absolute;
@@ -563,4 +556,20 @@ BOOKSHELF
     transition:.3s;
     transform: translateY(-8px) scale(1.03);
     transition: .25s ease;
+}
+
+@media (max-width:768px){
+
+    .webtoon-grid{
+        gap:20px;
+        padding:0 20px;
+    }
+
+    .webtoon-card{
+        width:140px;
+    }
+
+    .cover{
+        height:195px;
+    }
 }
