@@ -558,11 +558,19 @@ BOOKSHELF
     transition: .25s ease;
 }
 
-@media (max-width:768px){
+/*for phones */
+
+@media (max-width: 768px){
 
     .webtoon-grid{
+        display:grid;
+
+        grid-template-columns: repeat(2, 140px);
+
+        justify-content:center;
+
         gap:20px;
-        padding:0 20px;
+        padding:0 15px;
     }
 
     .webtoon-card{
@@ -570,6 +578,9 @@ BOOKSHELF
     }
 
     .cover{
-        height:195px;
+        width:100%;
+        height:auto;
+        display:block;
     }
+
 }
