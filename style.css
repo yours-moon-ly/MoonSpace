@@ -211,7 +211,7 @@ width:100%;
 
         position:absolute;
 
-        left: 155px;     /* adjust after adding monitor */
+        left: 155px;     /* adjust... */
         top: 105px;
 
         width:600px;
@@ -261,6 +261,7 @@ width:100%;
 
     pointer-events:none;
     }
+   
     /* PHAINON GIFS*/
     #leftDecor{
 
@@ -581,6 +582,20 @@ BOOKSHELF
         width:100%;
         height:auto;
         display:block;
+    }
+
+      /* Monitor */
+
+    .monitor-container{
+        overflow:visible;
+    }
+
+
+    /* Baby Phainon */
+
+    #leftDecor{
+        left:10px;
+        width:100px;
     }
 
 }
